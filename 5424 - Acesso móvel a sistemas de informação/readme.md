@@ -11,5 +11,8 @@
 * Tuplos
 * funcs
 * opts
-* Arrays
+* Collections
+ * Arrays
+ * Set
+ * Dict
   
