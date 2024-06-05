@@ -8,5 +8,8 @@
 * loops
   * for
   * while
+* Tuplos
 * funcs
 * opts
+* Arrays
+  
