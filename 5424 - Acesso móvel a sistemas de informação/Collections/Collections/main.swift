@@ -11,10 +11,10 @@ import Foundation
 
 var dict: [String: String] = ["key1": "Value 1", "key2": "Value 2", "key3": "Value 2"]
 
-print(dict["key8"])
+print(dict["key8"] ?? "")
 
 dict["key8"] = "novo valor"
-print(dict["key8"])
+print(dict["key8"]!)
 
 print(dict)
 
@@ -99,7 +99,20 @@ print(set4.isSuperset(of: set2))
 print(set2.isSuperset(of: set4))
 
 
-print(set4.randomElement())
+print(set4.randomElement()!)
 
 
 // Arrays MD ("matirzes")
+
+
+var lista:[[Int]] = [[1,2,3], [4,5], [7]]
+
+print(lista[0][0])
+
+lista[0].append(999)
+for linha in lista{
+    for elm in linha{
+        print(elm, terminator: " ")
+    }
+    print("")
+}
