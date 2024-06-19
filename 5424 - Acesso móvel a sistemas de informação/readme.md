@@ -1,13 +1,13 @@
 # 5424 - Acesso móvel a sistemas de informação
 
-* var e let
+* `var` e `let`
 * operações
 * condições
-  * if
-  * swtich
+  * `if`
+  * `swtich`
 * loops
-  * for
-  * while
+  * `for`
+  * `while`
 * Tuplos
 * funcs
 * opts
@@ -15,4 +15,10 @@
  * Arrays
  * Set
  * Dict
-  
+* Classes
+ * Computed properties
+ * Properties observers
+ * `lazy`
+ * `satic`
+
+* Singleton
