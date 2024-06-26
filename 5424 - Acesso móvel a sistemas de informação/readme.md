@@ -12,13 +12,13 @@
 * funcs
 * opts
 * Collections
- * Arrays
- * Set
- * Dict
+  * Arrays
+  * Set
+  * Dict
 * Classes
- * Computed properties
- * Properties observers
- * `lazy`
- * `satic`
+  * Computed properties
+  * Properties observers
+  * `lazy`
+  * `satic`
 
 * Singleton
