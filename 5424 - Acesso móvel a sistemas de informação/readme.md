@@ -20,5 +20,8 @@
   * Properties observers
   * `lazy`
   * `satic`
+  * Herança
+  * `extension`
 
 * Singleton
+* intro ao Polimorfismo
