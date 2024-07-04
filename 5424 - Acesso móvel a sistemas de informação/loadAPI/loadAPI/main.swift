@@ -34,3 +34,12 @@ loader.fetchPostkWith(id: 8) { todo in
 print("--------------------")
 
 
+
+
+var todo = Todo(userId: 99, id: 99, title: "txt base", completed: false)
+
+loader.loadTodokWith(todo: todo) { todo in
+    print("-------adicionado-------------")
+    print(todo)
+}
+print("--------------------")

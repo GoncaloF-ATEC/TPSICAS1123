@@ -18,36 +18,6 @@
             endingLineNumber = "79"
             landmarkName = "fetchPostkWith(id:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8D183912-D249-45F4-B990-68712A921E10 - 2d4da735df97ad60"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "loadAPI.ApiHandler.fetchPostkWith(id: Swift.Int, completion: (loadAPI.Todo) -&gt; ()) -&gt; ()"
-                  moduleName = "loadAPI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goncalof/repos/ATEC/TPSICAS1123/5424%20-%20Acesso%20mo%CC%81vel%20a%20sistemas%20de%20informac%CC%A7a%CC%83o/loadAPI/loadAPI/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79">
-               </Location>
-               <Location
-                  uuid = "8D183912-D249-45F4-B990-68712A921E10 - 2dc600235164a475"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in loadAPI.ApiHandler.fetchPostkWith(id: Swift.Int, completion: (loadAPI.Todo) -&gt; ()) -&gt; ()"
-                  moduleName = "loadAPI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goncalof/repos/ATEC/TPSICAS1123/5424%20-%20Acesso%20mo%CC%81vel%20a%20sistemas%20de%20informac%CC%A7a%CC%83o/loadAPI/loadAPI/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,36 +66,6 @@
             endingLineNumber = "85"
             landmarkName = "fetchPostkWith(id:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C55DDEF4-9811-4D23-98C5-242E6D4CD2C2 - 2dc600235164a59a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in loadAPI.ApiHandler.fetchPostkWith(id: Swift.Int, completion: (loadAPI.Todo) -&gt; ()) -&gt; ()"
-                  moduleName = "loadAPI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goncalof/repos/ATEC/TPSICAS1123/5424%20-%20Acesso%20mo%CC%81vel%20a%20sistemas%20de%20informac%CC%A7a%CC%83o/loadAPI/loadAPI/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86">
-               </Location>
-               <Location
-                  uuid = "C55DDEF4-9811-4D23-98C5-242E6D4CD2C2 - 2dc600235164a59a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in loadAPI.ApiHandler.fetchPostkWith(id: Swift.Int, completion: (loadAPI.Todo) -&gt; ()) -&gt; ()"
-                  moduleName = "loadAPI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goncalof/repos/ATEC/TPSICAS1123/5424%20-%20Acesso%20mo%CC%81vel%20a%20sistemas%20de%20informac%CC%A7a%CC%83o/loadAPI/loadAPI/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -142,36 +82,6 @@
             endingLineNumber = "91"
             landmarkName = "fetchPostkWith(id:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "000E2A14-9A34-4F80-9A46-D4BB19DF93F2 - 2dc600235164a6c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in loadAPI.ApiHandler.fetchPostkWith(id: Swift.Int, completion: (loadAPI.Todo) -&gt; ()) -&gt; ()"
-                  moduleName = "loadAPI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goncalof/repos/ATEC/TPSICAS1123/5424%20-%20Acesso%20mo%CC%81vel%20a%20sistemas%20de%20informac%CC%A7a%CC%83o/loadAPI/loadAPI/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "92"
-                  endingLineNumber = "92">
-               </Location>
-               <Location
-                  uuid = "000E2A14-9A34-4F80-9A46-D4BB19DF93F2 - 2dc600235164a6c0"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in loadAPI.ApiHandler.fetchPostkWith(id: Swift.Int, completion: (loadAPI.Todo) -&gt; ()) -&gt; ()"
-                  moduleName = "loadAPI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/goncalof/repos/ATEC/TPSICAS1123/5424%20-%20Acesso%20mo%CC%81vel%20a%20sistemas%20de%20informac%CC%A7a%CC%83o/loadAPI/loadAPI/ApiHandler.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "92"
-                  endingLineNumber = "92">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

@@ -101,6 +101,50 @@ class ApiHandler{
                url.deleteLastPathComponent()
        }
     
+    
+    func loadTodokWith(todo:Todo, completion: @escaping (Todo) -> Void){
+        
+        
+        var url = URLRequest(url: URL(string:"https://jsonplaceholder.typicode.com/posts")!)
+        
+        let myData = try! JSONEncoder().encode(todo)
+                
+        url.httpMethod = "post"
+        
+        url.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        url.httpBody = myData
+        
+        
+        
+        
+    
+           
+           let dataTask = URLSession.shared.dataTask(with: url) { data, resp, erro in
+               
+               if let erro = erro {
+                   print("Erro: \(erro.localizedDescription)")
+               }
+               
+               guard let resp = resp as? HTTPURLResponse, (200...299).contains(resp.statusCode) else {
+                   
+                   print("resposta invalida")
+                   return
+               }
+               
+               if let dados = data, let dados = try? JSONDecoder().decode(Todo.self, from: dados){
+                   completion(dados)
+                   self.semaphore.signal()
+               }
+           }
+           
+               dataTask.resume()
+                
+                semaphore.wait()
+        
+       }
+ 
+    
 }
 
 /*
