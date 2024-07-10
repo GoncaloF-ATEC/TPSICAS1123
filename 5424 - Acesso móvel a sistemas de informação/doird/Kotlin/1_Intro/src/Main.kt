@@ -67,32 +67,149 @@ fun main() {
 
     //nomeC = "novo"
 
+    var peso1 = 10
+    var peso = 10.4
+    var peso2: Float = 10.5f
+
+    var d: Double = 10.toDouble()
+
+    var soma = peso + peso2
+    println(soma)
+
+     var soma2 = peso + peso1
+    println(soma2)
 
     // if
 
+    println("-----if-----")
+    val i = 1
+
+    if (i % 2 == 0) {
+        println("$i é par")
+
+    }else if (i == 1) {
+        println("$i é um")
+
+    } else {
+        println("$i não é par")
+    }
 
 
     // switch
+println("---when----")
+
+    var day = 7
+    val result = when (day) {
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Wednesday"
+        4 -> "Thursday"
+        5 -> "Friday"
+        6 -> "Saturday"
+        7 -> "Sunday"
+        else -> "Invalid day."
+    }
+    println(result)
+
+    println("---when2---")
+
+     when (day) {
+        1 ->  println("Monday")
+        2 ->  println("Tuesday")
+        3 ->  println("Wednesday")
+        4 ->  println("Thursday")
+        5 ->  println("Friday")
+        6 ->  println("Saturday")
+        7 ->  println("Sunday")
+        else ->  println("Invalid day.")
+    }
 
 
     // while
 
+    println("-----while----")
+    var j = 0;
+
+    while (j < 10){
+        println("j = $j")
+        j += 1
+    }
+
+    println("-----while 2----")
+
+     j = 0;
+
+    while (j < 10){
+
+        println("j = $j")
+
+        j++
+    }
+
+    var cond = false
+    //cond = dataAtual == 10/08/2025
+
+    while (cond){
+
+        println("cond")
+
+    }
+
+
+
 
     // range
+ println("----- range ----")
 
+    println(0..10)
 
+    println('a'..'z')
 
     //for
+     println("----- for  ----")
+
+    for(i in 1..10){
+        println(i)
+    }
+
+  println("----- for 2 ----")
+
+    for(i in 'a'..'z'){
+        println(i)
+    }
 
 
+    /*
+    println("----- for 3 ----")
 
+    for(i in "ab".."ba"){
+        println(i)
+    }
+
+    */
+     println("----- for 3 ----")
+    var r1 = 0..10
+
+    for(i in r1){
+        println(i)
+    }
+
+         println("----- for 4 ----")
+    var varFor = "Gonçalo"
+
+    for(ch in varFor){
+        if (ch == 'o'){
+            continue
+        }
+        if (ch == 'a'){
+            break
+        }
+
+        println(ch)
+    }
+println("fim do for")
 
     // funcs
-
-
-
-
-
-
+    
 
 }
