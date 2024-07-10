@@ -1,3 +1,9 @@
+
+fun olaMundo2(){
+
+    println("Ola Mundo 2")
+}
+
 fun main() {
 
     // comnt
@@ -210,6 +216,38 @@ println("---when----")
 println("fim do for")
 
     // funcs
-    
+    println("------Funcs -----")
+
+    olaMundo()
+     olaMundo2()
+
+    println("------Funcs Param -----")
+
+
+    olaMundoParam("Gonçalo", 2024)
+
+     println("------Funcs Param  e return -----")
+
+    val msg = olaMundoParamRet("Gonçalo", 2024)
+    println(msg)
+
+}
+
+
+fun olaMundo(){
+    println("Ola Mundo")
+}
+
+fun olaMundoParam(nome: String, ano:Int){
+    println("Ola Mundo, $nome em $ano")
+}
+
+fun olaMundoParamRet(nome: String, ano:Int): String{
+    return "Ola Mundo, $nome em $ano"
+}
+
+fun soma(v1:UInt, v2:UInt): UInt{
+    return v1 + v2
+
 
 }
