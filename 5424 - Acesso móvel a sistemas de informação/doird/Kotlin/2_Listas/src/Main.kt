@@ -119,8 +119,93 @@ println("-----------")
 
     println(res_reduce2)
 
-    // Dict
 
+    // Dict
+println("------------ mutableMapOf ( dict )  -----------")
+
+    var dict = mutableMapOf<String, Int>()
+
+    dict["a"] = 5
+    dict["b"] = 15
+    dict["c"] = 20
+    println(dict)
+
+
+    dict["c"] = 40
+    println(dict)
+
+    dict.set("c", 40)
+    println(dict)
+
+
+
+    var dict2 = mutableMapOf<String, Int>(
+        "key1" to 10,
+        "key2" to 20,
+        "key3" to 30,
+        "key4" to 40,
+        "key5" to 50
+    )
+
+println(dict2)
+
+
+    println("----------")
+
+    for (elm in dict2) {
+        println(elm.value)
+    }
+
+
+    println("----------")
+
+
+    dict2.forEach{ k, v ->
+        println(k)
+        println(v)
+    }
+
+    println("----------")
+    dict2.forEach{elm ->
+     //   println(elm.key)
+      //  println(elm.value)
+       // println(elm)
+
+        println("key: ${elm.key}, value: ${elm.value}")
+    }
+
+    println("----------");  println("----------")
+
+
+
+
+
+
+// str
+
+
+    /*
+     'e' <- char
+     "e" <- str
+     */
+
+    var f = "xtestex"
+
+    for (ch in f) {
+
+        println(ch)
+    }
+
+    println("------")
+
+    println(f[0] == 'x')
+    println(f[0] == 'X')
+
+    println(f.contains("teste"))
+    println(f.startsWith("teste"))
+    println(f.startsWith("xtes"))
+    println(f.endsWith("tex"))
+    
 }
 
 
