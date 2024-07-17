@@ -205,7 +205,42 @@ println(dict2)
     println(f.startsWith("teste"))
     println(f.startsWith("xtes"))
     println(f.endsWith("tex"))
-    
+
+
+    // Array v2
+    println("---- Array remove ----- ")
+
+
+    var marr10 = mutableListOf(1,2,3,4,5)
+
+    println(marr10)
+    marr10.removeFirst()
+    println(marr10)
+
+    marr10.removeLast()
+    println(marr10)
+
+
+    marr10.removeAt(2)
+    println(marr10)
+
+    marr10.add(20)
+    marr10.add(4)
+    marr10.add(26)
+    println(marr10)
+
+    marr10.remove(20)
+
+    println(marr10)
+
+    marr10.add(2)
+
+    println(marr10)
+
+    marr10.remove(2)
+
+    println(marr10)
+    marr10.add(3)
 }
 
 
