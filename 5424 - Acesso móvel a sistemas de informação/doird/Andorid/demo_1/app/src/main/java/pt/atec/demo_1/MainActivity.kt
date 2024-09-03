@@ -12,9 +12,14 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.Button
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
@@ -32,7 +37,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            var nome = "Gonçalo 2"
+            var nome by remember {
+                mutableStateOf("Gonçalo")
+            }
+
+            var nome2 = remember {
+                mutableStateOf("Gonçalo")
+            }
 
             Column {
                 Spacer(modifier = Modifier.height(20.dp))
@@ -46,7 +57,7 @@ class MainActivity : ComponentActivity() {
                 Text("Novo txt",
                     letterSpacing = 10.sp)
 
-                Text(nome,
+                Text("nome",
                     modifier =
                     Modifier
                         .background(color = Color.Gray)
@@ -62,8 +73,49 @@ class MainActivity : ComponentActivity() {
                     Text("txt",
                         letterSpacing = 10.sp)
                 }
+                Spacer(modifier = Modifier.height(25.dp))
 
+                Row {
+                    Text(nome,
+                        modifier =
+                        Modifier
+                            .background(color = Color.Gray)
+                            .padding(10.dp),
 
+                        fontWeight = FontWeight.ExtraBold,
+                    )
+                    Spacer(modifier = Modifier.width(60.dp))
+
+                    Button(onClick = {
+                        nome = "Novo nome"
+
+                    }) {
+                        Text("ok")
+
+                    }
+                }// row Btn 1
+
+                Spacer(modifier = Modifier.height(25.dp))
+
+                Row {
+                    Text(nome2.value,
+                        modifier =
+                        Modifier
+                            .background(color = Color.Gray)
+                            .padding(10.dp),
+
+                        fontWeight = FontWeight.ExtraBold,
+                    )
+                    Spacer(modifier = Modifier.width(60.dp))
+
+                    Button(onClick = {
+                        nome2.value = "Novo nome"
+
+                    }) {
+                        Text("ok")
+
+                    }
+                }// row Btn 2
 
             }//Column
 
