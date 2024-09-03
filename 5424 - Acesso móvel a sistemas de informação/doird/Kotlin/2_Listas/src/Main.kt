@@ -1,5 +1,8 @@
 fun main() {
 
+<<<<<<< HEAD
+    // array
+=======
     // Arrays
 
     var arr1 = arrayOf(1,2,3,4,5)
@@ -175,10 +178,19 @@ println(dict2)
     }
 
     println("----------");  println("----------")
+>>>>>>> bee8af422da15e537b5c10cf50aeb91fcc481150
 
 
 
 
+<<<<<<< HEAD
+    // set
+
+
+
+    // dicionario
+
+=======
 
 
 // str
@@ -246,4 +258,5 @@ println(dict2)
 
 fun redFunc(v1:Int, v2:Int ):Int {
     return v1 + v2
+>>>>>>> bee8af422da15e537b5c10cf50aeb91fcc481150
 }
