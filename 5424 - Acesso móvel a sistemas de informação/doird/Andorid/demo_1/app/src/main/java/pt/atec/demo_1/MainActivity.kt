@@ -31,8 +31,6 @@ import pt.atec.demo_1.ui.theme.Demo_1Theme
 
 class MainActivity : ComponentActivity() {
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
