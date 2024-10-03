@@ -2,7 +2,7 @@ class Stack:
 
     def __init__(self):
         self.data = []
-        
+
     def isEmpty(self):
         pass
 
