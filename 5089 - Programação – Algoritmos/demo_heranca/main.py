@@ -23,4 +23,20 @@ print(f"prof3: {prof3.turmas}")
 prof5 = prof3
 
 prof5.nome = "Sem nome"
-print(prof3)
+
+
+
+print("---" * 4)
+
+prof5.portect()
+print(prof5._metodoProtrct)
+# print(prof5.__metodoPvt)
+
+print(p1._metodoProtrct)
+
+
+lista = [p1, al, prof2]
+
+for elm in lista:
+    
+    elm.msg()
