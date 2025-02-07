@@ -38,5 +38,16 @@ print(p1._metodoProtrct)
 lista = [p1, al, prof2]
 
 for elm in lista:
-    
+
     elm.msg()
+
+
+"""
+Stack 
+Queue
+Lista Ligada
+base arvore binaria 
+
+
+
+"""
